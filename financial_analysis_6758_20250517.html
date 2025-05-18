@@ -1,0 +1,720 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企業分析レポート: SONY GROUP CORPORATION (6758.T)</title>
+    <style>
+        body { 
+            font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+            margin: 0; /* body自体のマージンを0に */
+            padding: 0; /* body自体のパディングを0に */
+            background-color: #f8f9fa; 
+            color: #212529; 
+            line-height: 1.6; 
+        }
+        .container { 
+            /* max-width: 960px; */ /* 既存の値 */
+            max-width: 1140px;  /* ★★★ 少し広げてみる例 (お好みで調整) ★★★ */
+            /* width: 90%; */   /* ★★★ または画面幅に対する割合で指定するのもあり ★★★ */
+            margin: 15px auto; /* 上下のマージンを少し減らし、左右はautoで中央揃え */
+            padding: 20px;   /* コンテナ内のパディングも少し調整 (お好みで) */
+            background-color: #ffffff; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+            border-radius: 10px; 
+        }
+        h1, h2, h3 { color: #343a40; }
+        h1 { text-align: center; border-bottom: 3px solid #007bff; padding-bottom: 18px; margin-bottom: 25px; font-size: 2.2em; font-weight: 500; }
+        h2 { border-left: 6px solid #007bff; padding-left: 12px; margin-top: 45px; margin-bottom: 22px; font-size: 1.7em; font-weight: 500; }
+        .section { margin-bottom: 35px; padding: 22px; border: 1px solid #dee2e6; border-radius: 8px; background-color: #ffffff; box-shadow: 0 2px 6px rgba(0,0,0,0.04); }
+        .dataframe { border-collapse: collapse; width: 100%; margin-bottom: 22px; font-size: 0.90em; box-shadow: 0 1px 4px rgba(0,0,0,0.05); } /*フォントサイズ調整*/
+        .dataframe th, .dataframe td { border: 1px solid #ced4da; padding: 9px 11px; text-align: left; word-break: break-word; } /*パディング調整*/
+        .dataframe th { background-color: #007bff; color: white; font-weight: 600; text-align: center;} /*ヘッダー中央揃え*/
+        .dataframe td:not(:first-child) { text-align: right; } /*データセルは右揃え（最初の列を除く）*/
+        .dataframe tr:nth-child(even) { background-color: #f1f3f5; }
+        .dataframe tr:hover { background-color: #e9ecef; }
+        .chart { text-align: center; margin-bottom: 25px; padding: 15px; border: 1px solid #dee2e6; border-radius: 6px; }
+        .chart img { max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+        .gemini-comment { background-color: #eef7ff; padding: 18px 22px; border-radius: 6px; border-left: 6px solid #007bff; line-height: 1.75; font-size: 0.98em; margin-top: 12px; }
+        .gemini-comment h1, .gemini-comment h2, .gemini-comment h3, .gemini-comment h4 { margin-top: 1.3em; margin-bottom: 0.7em; color: #0056b3; font-weight: 500; }
+        .gemini-comment h1 { font-size: 1.35em; } .gemini-comment h2 { font-size: 1.25em; } .gemini-comment h3 { font-size: 1.15em; }
+        .gemini-comment ul, .gemini-comment ol { padding-left: 28px; margin-top: 0.6em; margin-bottom: 1.1em; }
+        .gemini-comment li { margin-bottom: 0.6em; } .gemini-comment p { margin-bottom: 1.1em; }
+        .gemini-comment strong, .gemini-comment b { color: #004085; font-weight: 600; }
+        .gemini-comment code { background-color: #e9ecef; padding: 0.25em 0.45em; border-radius: 4px; font-size: 0.9em; }
+        .gemini-comment pre { background-color: #212529; color: #f8f9fa; padding: 12px; border-radius: 5px; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word; font-size: 0.9em;}
+        .gemini-comment pre code { background-color: transparent; padding: 0; border-radius: 0; font-size: inherit;}
+        .no-data { color: #6c757d; font-style: italic; text-align: center; padding: 20px; }
+        .business-summary-box { background-color: #f8f9fa; border-left: 4px solid #6c757d; white-space: pre-wrap; font-size:0.9em; padding: 15px; margin-top: 10px; border-radius: 4px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>企業分析レポート: Sony Group Corporation (6758.T)</h1>
+        <p style="text-align:center; font-size:0.9em; color:#6c757d;">分析日: 2025-05-17 15:36:09</p>
+
+        <div class="section">
+            <h2>企業概要</h2>
+            <p><strong>企業名:</strong> Sony Group Corporation</p>
+            <p><strong>証券コード:</strong> 6758.T</p>
+            <p><strong>業種:</strong> Consumer Electronics</p>
+            <p><strong>セクター:</strong> Technology</p>
+            <p><strong>ウェブサイト:</strong> <a href="https://www.sony.com" target="_blank">https://www.sony.com</a></p>
+            <h3>事業概要</h3>
+            <div class="business-summary-box">
+                ソニーグループ株式会社は、日本、米国、欧州、中国、アジア太平洋地域、および国際市場において、消費者、専門家、産業向けに電子機器、計測器、デバイスの設計、開発、製造、販売を行っています。デジタルネットワークを通じてソフトウェアタイトルや追加コンテンツ、ゲーム、ビデオ、音楽コンテンツ関連のネットワークサービス、家庭用ゲーム機、パッケージゲームソフト、周辺機器を販売しています。また、録音音楽の開発、製造、販売、音楽出版、アニメーションタイトル、ゲームアプリケーション、音楽および映像製品に関する各種サービスの制作・販売も行っています。さらに、劇場公開用実写およびアニメーション映画、脚本付きおよびアニメーションシリーズ、ノンフィクションリアリティ番組や軽娱乐番組、昼ドラ、ゲームショー、テレビ映画、ミニシリーズおよびその他のテレビ番組の制作、取得、配給、テレビネットワークの運営、消費者向けストリーミングサービスの運営、ビジュアルエフェクトおよびアニメーション部門の運営、スタジオ施設の運営も行っています。さらに、テレビ、ビデオおよびオーディオ製品、交換レンズ式カメラ、コンパクトデジタルカメラ、業務用および民生用ビデオカメラ、プロジェクター、医療機器、携帯電話、アクセサリー、アプリケーション、金属酸化物半導体イメージセンサー、電荷結合素子、統合システム、その他の半導体の研究開発、設計、製造、販売、サービスを提供しています。また、インターネットブロードバンドネットワークサービス、記録メディア、記憶メディア製品を提供し、生命保険および損害保険、銀行業務、その他のサービスを提供するほか、PCや携帯電話向けコンテンツの制作・配信も行っています。同社は以前はソニー株式会社として知られていましたが、2021年4月にソニーグループ株式会社に社名変更しました。ソニーグループ株式会社は1946年に設立され、東京都に本社を置いています。
+            </div>
+        </div>
+
+        
+        <div class="section chart">
+            <h2>株価チャートとテクニカル指標</h2>
+            <img src="images/stock_chart.png" alt="Stock Chart and Technical Indicators">
+        </div>
+        
+
+        
+        <div class="section chart">
+            <h2>売上高推移 (年次)</h2>
+            <img src="images/pl_revenue.png" alt="Total Revenue Chart">
+        </div>
+        
+
+        
+        <div class="section chart">
+            <h2>主要利益推移 (年次)</h2>
+            <img src="images/pl_profits.png" alt="Key Profits Chart">
+        </div>
+        
+        
+        
+        <div class="section chart">
+            <h2>主要P/L項目 前年比成長率 (年次)</h2>
+            <img src="images/pl_growth.png" alt="P/L Growth Rate Chart">
+        </div>
+        
+
+        
+        <div class="section chart">
+            <h2>主要利益率推移 (年次)</h2>
+            <img src="images/pl_margins.png" alt="P/L Margins Chart">
+        </div>
+        
+
+        
+        <div class="section">
+            <h2>主要P/L項目 (yfinanceより - 年次)</h2>
+            <table border="1" class="dataframe dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Total Revenue</th>
+      <th>Cost Of Revenue</th>
+      <th>Gross Profit</th>
+      <th>Operating Expense</th>
+      <th>Operating Income</th>
+      <th>Pretax Income</th>
+      <th>Net Income Common Stockholders</th>
+      <th>Net Income</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2024-03-31</th>
+      <td>13,020,768,000,000</td>
+      <td>9,695,687,000,000</td>
+      <td>3,325,081,000,000</td>
+      <td>2,158,095,000,000</td>
+      <td>1,166,986,000,000</td>
+      <td>1,268,662,000,000</td>
+      <td>970,573,000,000</td>
+      <td>970,573,000,000</td>
+    </tr>
+    <tr>
+      <th>2023-03-31</th>
+      <td>10,974,373,000,000</td>
+      <td>7,739,284,000,000</td>
+      <td>3,235,089,000,000</td>
+      <td>1,961,884,000,000</td>
+      <td>1,273,205,000,000</td>
+      <td>1,274,496,000,000</td>
+      <td>1,005,277,000,000</td>
+      <td>1,005,277,000,000</td>
+    </tr>
+    <tr>
+      <th>2022-03-31</th>
+      <td>9,921,513,000,000</td>
+      <td>7,219,841,000,000</td>
+      <td>2,701,672,000,000</td>
+      <td>1,589,276,000,000</td>
+      <td>1,112,396,000,000</td>
+      <td>1,117,503,000,000</td>
+      <td>882,178,000,000</td>
+      <td>882,178,000,000</td>
+    </tr>
+    <tr>
+      <th>2021-03-31</th>
+      <td>8,998,661,000,000</td>
+      <td>6,567,553,000,000</td>
+      <td>2,431,108,000,000</td>
+      <td>1,474,150,000,000</td>
+      <td>956,958,000,000</td>
+      <td>997,965,000,000</td>
+      <td>1,029,610,000,000</td>
+      <td>1,029,610,000,000</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        
+
+        
+        <div class="section">
+            <h2>P/Lサマリー分析 (Gemini - 決算短信より)</h2>
+            <div class="gemini-comment"><p>決算短信からの主要な連結経営成績（2025年3月期）は以下の通りです。</p>
+<ol>
+<li>連結売上高及び金融ビジネス収入: 12,957,064 百万円</li>
+<li>営業利益: 1,407,163 百万円</li>
+<li>税引前利益: 1,473,726 百万円</li>
+<li>当社株主に帰属する当期純利益: 1,141,600 百万円</li>
+</ol>
+<p>2025年3月期のソニーグループ株式会社の連結業績に関する主要ポイント：</p>
+<ul>
+<li>
+<p><strong>売上高は微減:</strong> 2025年3月期の連結売上高は12,957,064 百万円となり、前期（13,020,768 百万円）と比較して0.5%減となりました。これは、金融ビジネス収入の大幅な減少が影響しています。金融ビジネス収入を除くと、売上高は6.9%増と堅調に推移しています。</p>
+</li>
+<li>
+<p><strong>営業利益は大幅増加:</strong> 営業利益は1,407,163 百万円と、前期（1,208,831 百万円）比で16.4%増加しました。これは、金融分野を除く連結ベースでの営業利益が23.3%増と大幅に増加したことによるものであり、各事業セグメントの収益性向上とコスト削減効果が顕著に表れています。</p>
+</li>
+<li>
+<p><strong>純利益も増加:</strong> 当社株主に帰属する当期純利益は1,141,600 百万円と、前期（970,573 百万円）比で17.6%増加しました。これは営業利益の増加に加え、税引前利益の増加も寄与しています。</p>
+</li>
+</ul>
+<p>全体として、2025年3月期は、金融ビジネス収入の減少にもかかわらず、主要事業の好調な業績により、営業利益と純利益が大きく増加したと言えるでしょう。金融ビジネスの構造改革の影響が、今後の業績にどう影響するか注視する必要があります。</p></div>
+        </div>
+        
+
+        
+        <div class="section">
+            <h2>セグメント別業績 (最新期 - 決算短信より)</h2>
+            <table border="1" class="dataframe dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>セグメント名称</th>
+      <th>売上高</th>
+      <th>営業利益</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ゲーム＆ネットワークサービス</td>
+      <td>4,543,571</td>
+      <td>414,819</td>
+    </tr>
+    <tr>
+      <td>音楽</td>
+      <td>1,820,263</td>
+      <td>357,255</td>
+    </tr>
+    <tr>
+      <td>映画</td>
+      <td>1,498,534</td>
+      <td>117,284</td>
+    </tr>
+    <tr>
+      <td>エンタテインメント・テクノロジー＆サービス</td>
+      <td>2,362,838</td>
+      <td>190,926</td>
+    </tr>
+    <tr>
+      <td>イメージング＆センシング・ソリューション</td>
+      <td>1,712,534</td>
+      <td>261,147</td>
+    </tr>
+    <tr>
+      <td>金融</td>
+      <td>922,147</td>
+      <td>130,528</td>
+    </tr>
+    <tr>
+      <td>その他</td>
+      <td>82,477</td>
+      <td>-17,996</td>
+    </tr>
+    <tr>
+      <td>全社（共通）及びセグメント間取引消去</td>
+      <td>-</td>
+      <td>-46,800</td>
+    </tr>
+    <tr>
+      <td>連結合計</td>
+      <td>12,957,064</td>
+      <td>1,407,163</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        
+
+        
+        <div class="section">
+            <h2>セグメント別業績分析 (Gemini)</h2>
+            <div class="gemini-comment"><h2>各セグメント分析</h2>
+<ul>
+<li>
+<p><strong>ゲーム＆ネットワークサービス:</strong></p>
+<ul>
+<li>売上高: 4,543,571 千円と圧倒的な規模で、企業全体の売上高の約35%を占める主要セグメント。</li>
+<li>営業利益: 414,819 千円。営業利益率は約9.1% (414,819 ÷ 4,543,571 × 100)。主要セグメントながら利益率は比較的低い。市場競争の激化や開発費の高騰が考えられる。今後の成長には、ヒットタイトルの継続的な開発と、ユーザー維持のための施策が重要となる。</li>
+<li>特筆すべき点: 売上高規模は大きいものの、利益率改善が課題。</li>
+</ul>
+</li>
+<li>
+<p><strong>音楽:</strong></p>
+<ul>
+<li>売上高: 1,820,263 千円。第2の主要セグメント。</li>
+<li>営業利益: 357,255 千円。営業利益率は約19.6% (357,255 ÷ 1,820,263 × 100)。ゲームセグメントに比べ高い利益率を示している。ストリーミングサービスの普及による収益構造の変化への対応が今後の課題となる可能性がある。</li>
+<li>特筆すべき点: 比較的高利益率を維持しているが、成長の鈍化に注意が必要。</li>
+</ul>
+</li>
+<li>
+<p><strong>映画:</strong></p>
+<ul>
+<li>売上高: 1,498,534 千円。</li>
+<li>営業利益: 117,284 千円。営業利益率は約7.8% (117,284 ÷ 1,498,534 × 100)。利益率は低い。ヒット作の制作が収益に大きく影響するため、リスクが高いセグメントと言える。</li>
+<li>特筆すべき点: 利益率の低さが課題。ヒット作を生み出すための戦略が必要。</li>
+</ul>
+</li>
+<li>
+<p><strong>エンタテインメント・テクノロジー＆サービス:</strong></p>
+<ul>
+<li>売上高: 2,362,838 千円。</li>
+<li>営業利益: 190,926 千円。営業利益率は約8.1% (190,926 ÷ 2,362,838 × 100)。</li>
+<li>特筆すべき点:  成長余地はあるものの、利益率向上が必要。</li>
+</ul>
+</li>
+<li>
+<p><strong>イメージング＆センシング・ソリューション:</strong></p>
+<ul>
+<li>売上高: 1,712,534 千円。</li>
+<li>営業利益: 261,147 千円。営業利益率は約15.2% (261,147 ÷ 1,712,534 × 100)。比較的高い利益率。</li>
+<li>特筆すべき点: 高い利益率を維持しているが、売上高規模の拡大が今後の課題。</li>
+</ul>
+</li>
+<li>
+<p><strong>金融:</strong></p>
+<ul>
+<li>売上高: 922,147 千円。</li>
+<li>営業利益: 130,528 千円。営業利益率は約14.1% (130,528 ÷ 922,147 × 100)。高い利益率を示している。</li>
+<li>特筆すべき点: 比較的高利益率を維持しているが、売上高規模は小さい。</li>
+</ul>
+</li>
+<li>
+<p><strong>その他:</strong></p>
+<ul>
+<li>売上高: 82,477 千円。</li>
+<li>営業利益: -17,996 千円。営業損失。</li>
+<li>特筆すべき点: 赤字であるため、事業の見直しが必要。</li>
+</ul>
+</li>
+<li>
+<p><strong>全社（共通）及びセグメント間取引消去:</strong></p>
+<ul>
+<li>営業利益: -46,800 千円。間接部門の費用とセグメント間の取引調整によるものと考えられる。</li>
+</ul>
+</li>
+</ul>
+<h2>企業全体のポートフォリオ総括</h2>
+<p>企業全体の売上高は12,957,064 千円、営業利益は1,407,163 千円で、ゲーム＆ネットワークサービスと音楽が主要な収益源となっている。しかし、主要セグメントであるゲームの利益率が低いため、全体的な利益率の向上には課題が残る。映画セグメントは利益率が低く、リスクが高い。  イメージング＆センシング・ソリューションと金融セグメントは高い利益率を維持しており、今後の成長が見込める。  全体として、ポートフォリオの多角化は図られているものの、各セグメントの利益率向上と、低収益セグメントの見直し・改善が企業全体の収益性向上に不可欠と言える。特に、ゲームセグメントの利益率向上と、その他セグメントの黒字化が重要な経営課題となるだろう。</p></div>
+        </div>
+        
+
+        
+        <div class="section">
+            <h2>セグメント別業績 前期比較分析 (Gemini)</h2>
+            <div class="gemini-comment"><h2>各セグメント業績分析</h2>
+<p><strong>1. ゲーム＆ネットワークサービス</strong></p>
+<ul>
+<li><strong>売上高:</strong> 4,543,571 - 4,267,734 = 275,837 (増加)<ul>
+<li>増減率: (275,837 / 4,267,734) * 100% ≈ 6.5%</li>
+</ul>
+</li>
+<li><strong>営業利益:</strong> 414,819 - 290,184 = 124,635 (増加)<ul>
+<li>増減率: (124,635 / 290,184) * 100% ≈ 42.9%</li>
+</ul>
+</li>
+<li><strong>主な要因:</strong> 売上高、営業利益ともに大幅な増加。人気ゲームのリリースや既存ゲームの継続的な人気、課金ユーザーの増加などが考えられる。</li>
+<li><strong>コメント:</strong> 堅調な成長を続けており、企業全体の収益に大きく貢献している主力セグメント。</li>
+</ul>
+<p><strong>2. 音楽</strong></p>
+<ul>
+<li><strong>売上高:</strong> 1,820,263 - 1,618,958 = 201,305 (増加)<ul>
+<li>増減率: (201,305 / 1,618,958) * 100% ≈ 12.4%</li>
+</ul>
+</li>
+<li><strong>営業利益:</strong> 357,255 - 301,662 = 55,593 (増加)<ul>
+<li>増減率: (55,593 / 301,662) * 100% ≈ 18.4%</li>
+</ul>
+</li>
+<li><strong>主な要因:</strong>  売上高増加は、新アーティストの発掘や既存アーティストの楽曲配信・ストリーミングサービスの利用増加によるものと考えられる。</li>
+<li><strong>コメント:</strong> 売上高、営業利益ともに堅調に増加しており、成長を維持している。</li>
+</ul>
+<p><strong>3. 映画</strong></p>
+<ul>
+<li><strong>売上高:</strong> 1,498,534 - 1,493,050 = 5,484 (増加)<ul>
+<li>増減率: (5,484 / 1,493,050) * 100% ≈ 0.4%</li>
+</ul>
+</li>
+<li><strong>営業利益:</strong> 117,284 - 117,702 = -418 (減少)<ul>
+<li>増減率: (-418 / 117,702) * 100% ≈ -0.4%</li>
+</ul>
+</li>
+<li><strong>主な要因:</strong> 売上高は微増にとどまり、営業利益は微減。ヒット作の不足や制作費の高騰などが考えられる。</li>
+<li><strong>コメント:</strong> ほぼ横ばいで、目立った成長は見られない。今後のヒット作の投入が必要。</li>
+</ul>
+<p><strong>4. エンタテインメント・テクノロジー＆サービス</strong></p>
+<ul>
+<li><strong>売上高:</strong> 2,362,838 - 2,453,718 = -90,880 (減少)<ul>
+<li>増減率: (-90,880 / 2,453,718) * 100% ≈ -3.7%</li>
+</ul>
+</li>
+<li><strong>営業利益:</strong> 190,926 - 187,399 = 3,527 (増加)<ul>
+<li>増減率: (3,527 / 187,399) * 100% ≈ 1.9%</li>
+</ul>
+</li>
+<li><strong>主な要因:</strong> 売上高は減少しているものの、営業利益は微増。コスト削減効果などが考えられる。</li>
+<li><strong>コメント:</strong> 売上高の減少は懸念材料。コスト管理は良好だが、売上高回復策が必要。</li>
+</ul>
+<p><strong>5. イメージング＆センシング・ソリューション</strong></p>
+<ul>
+<li><strong>売上高:</strong> 1,712,534 - 1,602,738 = 109,796 (増加)<ul>
+<li>増減率: (109,796 / 1,602,738) * 100% ≈ 6.9%</li>
+</ul>
+</li>
+<li><strong>営業利益:</strong> 261,147 - 193,541 = 67,606 (増加)<ul>
+<li>増減率: (67,606 / 193,541) * 100% ≈ 34.9%</li>
+</ul>
+</li>
+<li><strong>主な要因:</strong> 売上高、営業利益ともに大幅な増加。新製品の投入や既存製品の販売増加などが考えられる。</li>
+<li><strong>コメント:</strong>  大幅な成長を示しており、今後の更なる成長に期待。</li>
+</ul>
+<p><strong>6. 金融</strong></p>
+<ul>
+<li><strong>売上高:</strong> 922,147 - 1,769,954 = -847,807 (減少)<ul>
+<li>増減率: (-847,807 / 1,769,954) * 100% ≈ -47.9%</li>
+</ul>
+</li>
+<li><strong>営業利益:</strong> 130,528 - 173,576 = -43,048 (減少)<ul>
+<li>増減率: (-43,048 / 173,576) * 100% ≈ -24.8%</li>
+</ul>
+</li>
+<li><strong>主な要因:</strong> 売上高、営業利益ともに大幅な減少。事業構造の変化や市場環境の変化などが考えられる。</li>
+<li><strong>コメント:</strong>  大幅な減収減益であり、大きな課題を抱えている。抜本的な対策が必要。</li>
+</ul>
+<p><strong>7. その他</strong></p>
+<ul>
+<li>前期データが非常に大きく、異常値の可能性があるため、比較は困難。詳細なデータが必要。</li>
+</ul>
+<p><strong>8. 全社（共通）及びセグメント間取引消去</strong></p>
+<ul>
+<li>前期データなし。</li>
+</ul>
+<h2>企業全体の業績トレンドと今後の注目点</h2>
+<ul>
+<li><strong>連結売上高:</strong> 12,957,064 百万円（今期）</li>
+<li><strong>連結営業利益:</strong> 1,407,163 百万円（今期）</li>
+</ul>
+<p>今期は、ゲーム＆ネットワークサービス、音楽、イメージング＆センシング・ソリューションセグメントが好調に推移し、連結営業利益は増加しました。しかし、金融セグメントの大幅な減収減益が懸念されます。「その他」セグメントの前期データの異常値も確認する必要があります。</p>
+<p><strong>今後の注目点:</strong></p>
+<ul>
+<li><strong>金融セグメントの立て直し:</strong>  減収減益の要因を詳細に分析し、抜本的な対策を講じる必要がある。</li>
+<li><strong>「その他」セグメントのデータ精査:</strong>  前期データの異常値を検証し、適切な比較分析を行う必要がある。</li>
+<li><strong>成長セグメントの更なる成長戦略:</strong> ゲーム＆ネットワークサービス、音楽、イメージング＆センシング・ソリューションセグメントの成長を維持・加速させるための戦略が必要。</li>
+<li><strong>映画セグメントの活性化:</strong> ヒット作の開発・投入による売上高・利益の向上策が必要。</li>
+<li><strong>エンタテインメント・テクノロジー＆サービスセグメントの売上高回復:</strong> 売上高減少の要因を分析し、回復策を検討する必要がある。</li>
+</ul>
+<p>全体としては、いくつかのセグメントで好調な結果が出ているものの、金融セグメントの不振や「その他」セグメントのデータの不透明さが懸念材料です。各セグメントの課題への対応と、成長セグメントの更なる成長戦略が今後の企業業績を左右すると考えられます。  より詳細なデータと、各セグメントの戦略・事業内容に関する情報があれば、より精緻な分析が可能となります。</p></div>
+        </div>
+        
+
+        
+        <div class="section">
+            <h2>定性情報分析 (経営方針・リスク・見通し - Gemini)</h2>
+            <div class="gemini-comment"><h2>ソニーグループ株式会社 2024年度連結業績概要と今後の見通し</h2>
+<h3>1. 経営方針・戦略・経営環境・課題</h3>
+<ul>
+<li><strong>金融事業の分離：</strong> 2025年10月、ソニーフィナンシャルグループ株式会社(SFGI)のパーシャル・スピンオフを実行予定。これにより金融事業は非継続事業に分類され、2026年3月期第1四半期から継続事業と区分して開示される。</li>
+<li><strong>中期経営計画の進捗：</strong> 第五次中期経営計画（2024～2026年度）は、2024年度はG&amp;NS、I&amp;SS、音楽分野が牽引し好調なスタート。継続事業ベースで営業利益年平均成長率10％以上、3年間累計営業利益率10％以上を目指す。</li>
+<li><strong>米国関税政策の影響：</strong> 米国関税政策変更による影響額は、2026年3月期は営業利益見通しの1割未満（約1,000億円）と試算。ただし、今後の政策変更で大きく変動する可能性がある。</li>
+<li><strong>市場競争の激化：</strong> 価格競争、技術革新、顧客嗜好の変化など、激しい市場競争の中で、コスト削減と顧客ニーズへの対応が課題。</li>
+<li><strong>為替レート変動リスク：</strong> 円高進行の想定下でも、モバイル機器向けイメージセンサー事業などの成長に期待。</li>
+</ul>
+<h3>2. 事業等のリスク</h3>
+<ul>
+<li><strong>金融事業のスピンオフ関連リスク：</strong> スピンオフに伴う会計処理（AOCIの振替など）による一時的な損失発生の可能性。ただし、継続事業への影響は限定的。</li>
+<li><strong>米国関税政策リスク：</strong> 今後の関税政策変更により、業績への影響が試算から大きく乖離する可能性。</li>
+<li><strong>市場競争リスク：</strong> 新製品・新サービスの開発競争、価格競争の激化、顧客嗜好の変化への対応が遅れるリスク。</li>
+<li><strong>サプライチェーンリスク：</strong> 部品・ソフトウェア・ネットワークサービス等の調達、製品製造、販売における外部ビジネスパートナーへの依存。</li>
+<li><strong>その他リスク：</strong> サイバーセキュリティリスク、知的財産権リスク、グローバル経済・政治情勢、大規模災害、感染症など。</li>
+</ul>
+<h3>3. 今後の見通し (次期業績予想、事業展開)</h3>
+<ul>
+<li><strong>2026年3月期連結業績予想（継続事業）：</strong> 売上高117,000億円、営業利益12,800億円（関税影響反映後）。前年度比売上高△3%、営業利益△0%。</li>
+<li><strong>セグメント別見通し：</strong> G&amp;NS分野は売上高減収も利益増加、I&amp;SS分野は増収増益を予想。音楽分野はほぼ前年並み、映画分野は増益予想。ET&amp;S分野は減収減益見込み。</li>
+<li><strong>配当金：</strong> 1株当たり年間25円を予定（株式分割後）。</li>
+<li><strong>キャピタルアロケーション：</strong> 株主還元と戦略投資に重点。2024～2026年度の3年間で計4.8兆円の投資を予定。</li>
+<li><strong>持分法投資損益：</strong> スピンオフ後のSFGIの持分法投資損益は、2026年3月期業績予想には含まれていない。</li>
+</ul>
+<p><strong>注記：</strong> 上記は提供された資料に基づいた要約であり、全ての情報が網羅されているとは限りません。投資判断はご自身の責任において行ってください。</p></div>
+        </div>
+        
+
+        
+        <div class="section">
+            <h2>B/S 主要項目サマリー (yfinanceより - 年次)</h2>
+            <table border="1" class="dataframe dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>最新期</th>
+      <th>前期</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>総資産</th>
+      <td>34,107,490,000,000</td>
+      <td>31,154,095,000,000</td>
+    </tr>
+    <tr>
+      <th>純資産</th>
+      <td>7,587,177,000,000</td>
+      <td>6,598,537,000,000</td>
+    </tr>
+    <tr>
+      <th>負債合計</th>
+      <td>26,351,385,000,000</td>
+      <td>24,496,945,000,000</td>
+    </tr>
+    <tr>
+      <th>自己資本比率 (%)</th>
+      <td>22</td>
+      <td>21</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        
+
+        
+        <div class="section">
+            <h2>C/F 主要項目サマリー (yfinanceより - 年次)</h2>
+            <table border="1" class="dataframe dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>最新期</th>
+      <th>前期</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>営業CF</th>
+      <td>1,373,213,000,000</td>
+      <td>314,691,000,000</td>
+    </tr>
+    <tr>
+      <th>投資CF</th>
+      <td>-818,886,000,000</td>
+      <td>-1,052,664,000,000</td>
+    </tr>
+    <tr>
+      <th>財務CF</th>
+      <td>-210,709,000,000</td>
+      <td>84,300,000,000</td>
+    </tr>
+    <tr>
+      <th>設備投資</th>
+      <td>-623,946,000,000</td>
+      <td>-613,635,000,000</td>
+    </tr>
+    <tr>
+      <th>フリーCF</th>
+      <td>749,267,000,000</td>
+      <td>-298,944,000,000</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        
+
+        
+        <div class="section">
+            <h2>B/S・C/F分析 (Gemini)</h2>
+            <div class="gemini-comment"><h2>財務分析レポート</h2>
+<p><strong>対象企業:</strong>  (企業名不明のため、仮に「A社」とします)</p>
+<p><strong>分析期間:</strong> 最新期と前期の比較</p>
+<p><strong>B/S分析:</strong></p>
+<ul>
+<li>
+<p><strong>総資産、純資産、負債の変動:</strong></p>
+<ul>
+<li>総資産は31,154億円から34,107億円に増加し、約2,953億円の増加となっています。これは前期比約9.5%の増加です。</li>
+<li>純資産は6,599億円から7,587億円に増加し、約988億円の増加となっています。これは前期比約14.9%の増加です。</li>
+<li>負債合計は24,497億円から26,351億円に増加し、約1,854億円の増加となっています。これは前期比約7.6%の増加です。</li>
+<li>総資産の増加は純資産と負債の増加の両方によって支えられています。</li>
+</ul>
+</li>
+<li>
+<p><strong>自己資本比率の水準と変動、財務健全性:</strong></p>
+<ul>
+<li>自己資本比率は前期の21.18%から22.25%に増加し、財務健全性がわずかに改善しています。 しかし、依然として低い水準であり、高レバレッジ経営である可能性を示唆しています。  更なる分析が必要となります。</li>
+</ul>
+</li>
+<li>
+<p><strong>その他特記事項:</strong></p>
+<ul>
+<li>上記の分析からは、A社の成長に伴い、資産と負債がともに増加していることが分かります。  自己資本比率のわずかな改善は、純資産の増加率が負債増加率を上回ったことによるものです。  しかし、自己資本比率が低いことから、財務リスクへの対応を考慮する必要があります。  詳細な分析には、各勘定科目の内訳が必要となります。</li>
+</ul>
+</li>
+</ul>
+<p><strong>C/F分析:</strong></p>
+<ul>
+<li>
+<p><strong>営業CFの変動、本業のキャッシュ創出力:</strong></p>
+<ul>
+<li>営業CFは前期の3,147億円から1兆3,732億円に大幅増加し、本業のキャッシュ創出力が大きく向上しています。これは、前期比約330%もの増加です。 この大幅な増加の原因を解明する必要があります(例えば、売上高の増加、コスト削減、回収期間の短縮など)。</li>
+</ul>
+</li>
+<li>
+<p><strong>投資CFの変動、投資活動内容:</strong></p>
+<ul>
+<li>投資CFは前期の-1兆527億円から-8,189億円に改善していますが、依然としてマイナスです。設備投資額は前期とほぼ横ばい(-6,239億円と-6,136億円)です。 投資CFの改善は、設備投資以外の投資活動（例えば、有価証券の売却など）によるものと考えられます。</li>
+</ul>
+</li>
+<li>
+<p><strong>財務CFの変動、資金調達・返済・配当:</strong></p>
+<ul>
+<li>財務CFは前期の843億円から-2,107億円に転じ、資金調達よりも資金の返済や配当が上回っています。  これは、営業CFの増加にもかかわらず、投資活動への支出と資金返済によって、資金繰りはやや厳しくなっていることを示唆します。</li>
+</ul>
+</li>
+<li>
+<p><strong>フリーCFの変動、企業が自由に使える資金:</strong></p>
+<ul>
+<li>フリーCFは前期の-2,989億円から7,493億円に大幅改善し、企業が自由に使える資金が大幅に増加しています。これは、営業CFの大幅な増加が主な要因です。</li>
+</ul>
+</li>
+<li>
+<p><strong>CF組み合わせから成長ステージや財務戦略の推測:</strong></p>
+<ul>
+<li>営業CFの大幅な増加と、フリーCFの黒字転換は、A社が成長段階にある可能性を示唆しています。  積極的な投資を行いながら、事業拡大によるキャッシュ創出力を高めていると推測できます。 しかし、高レバレッジ経営と財務CFのマイナス転換は、財務リスク管理の改善が必要であることを示しています。  今後の成長を維持するためには、適切な資金調達戦略と投資計画が重要です。</li>
+</ul>
+</li>
+</ul>
+<p><strong>総合的な分析コメント:</strong></p>
+<ul>
+<li>A社は高い成長を遂げており、営業CFは大幅に増加しているものの、依然として高レバレッジ経営であり、財務健全性の向上に努める必要がある。</li>
+<li>大幅な営業CFの増加要因の特定と、財務CFのマイナス転換の原因究明が不可欠である。</li>
+<li>今後の成長を持続的に実現するために、適切な投資計画と資金調達戦略の策定が必要である。</li>
+<li>より詳細な分析を行うためには、各勘定科目の内訳データが必要となる。</li>
+</ul>
+<p><strong>免責事項:</strong> この分析は提供された情報に基づいており、完全な財務状況を反映しているとは限りません。  投資判断はご自身の責任で行ってください。</p></div>
+        </div>
+        
+
+        
+        <div class="section">
+            <h2>株価指標サマリー (yfinance及び計算値)</h2>
+            <table border="1" class="dataframe dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>値</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>最新株価</th>
+      <td>3682.000000</td>
+    </tr>
+    <tr>
+      <th>PER (実績, yf)</th>
+      <td>19.576776</td>
+    </tr>
+    <tr>
+      <th>PER (予想, yf)</th>
+      <td>20.098253</td>
+    </tr>
+    <tr>
+      <th>PBR (yf)</th>
+      <td>2.712073</td>
+    </tr>
+    <tr>
+      <th>配当利回り (%)</th>
+      <td>69.000000</td>
+    </tr>
+    <tr>
+      <th>EPS (実績, 計算値)</th>
+      <td>161.246179</td>
+    </tr>
+    <tr>
+      <th>PER (実績, 計算値)</th>
+      <td>22.834650</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        
+
+        
+        <div class="section">
+            <h2>株価指標分析 (Gemini)</h2>
+            <div class="gemini-comment"><h2>SONY GROUP CORPORATION 株価評価分析</h2>
+<p><strong>株価指標サマリー:</strong></p>
+<ul>
+<li>最新株価: 3,682円</li>
+<li>PER (実績, yf): 19.58倍</li>
+<li>PER (予想, yf): 20.10倍</li>
+<li>PBR (yf): 2.71倍</li>
+<li>配当利回り: 69.00%</li>
+<li>EPS (実績, 計算値): 161.25円</li>
+<li>PER (実績, 計算値): 22.83倍</li>
+</ul>
+<p><strong>分析コメント:</strong></p>
+<ul>
+<li>
+<p><strong>1. PER(実績・予想)の割安/割高感:</strong></p>
+<ul>
+<li>実績PER (yf) 19.58倍、予想PER (yf) 20.10倍は、Consumer Electronics業界の平均PERと比較する必要があります。業界平均PERが不明なため、絶対的な割安/割高の判断は困難です。しかし、計算値PER(22.83倍)と比較すると、やや低い値を示しており、市場の予想成長率に対する期待が織り込まれている可能性があります。  業界平均PERとの比較が不可欠です。  更なる調査が必要です。</li>
+</ul>
+</li>
+<li>
+<p><strong>2. PBRの評価:</strong></p>
+<ul>
+<li>PBR (2.71倍)は、純資産額に対して株価が2.71倍であることを示します。これは、一般的に高めの水準と言えます。同業他社との比較が必要ですが、高PBRは市場がソニーの将来的な成長性やブランド力に高い期待をかけていることを示唆している可能性があります。しかし、バリュエーションが高いため、リスクも考慮する必要があります。</li>
+</ul>
+</li>
+<li>
+<p><strong>3. 配当利回りの魅力:</strong></p>
+<ul>
+<li>配当利回りが69%という数値は、異常な高さであり、明らかな誤りである可能性が高いです。  通常の企業の配当利回りはせいぜい数%です。  この数値の検証が必須です。  データの入力ミス、もしくは特別な配当政策（例：一時的な特別配当）の可能性が考えられます。  正しい数値を確認する必要があります。</li>
+</ul>
+</li>
+<li>
+<p><strong>4. 総合評価、投資妙味、注意点:</strong></p>
+<ul>
+<li>配当利回りの数値に大きな疑問があるため、総合的な評価は保留とします。 配当利回りに関する情報が修正された後、改めてPER、PBRと合わせて総合的な評価を行うべきです。</li>
+<li>高いPBRは、成長期待の裏返しである可能性がありますが、同時にバリュエーションリスクも伴います。</li>
+<li>投資妙味は、正確な配当利回り、そしてConsumer Electronics業界の平均PERとの比較、ソニーの今後の業績見通し、競合他社の状況などを総合的に判断する必要があります。</li>
+<li><strong>注意点:</strong>  提供されたデータ、特に配当利回りに不審な点があり、その修正と業界平均PERとの比較が不可欠です。  分析を行う前に、データの正確性を確認し、追加情報（業界動向、企業業績の詳細など）を入手する必要があります。</li>
+</ul>
+</li>
+</ul>
+<p><strong>結論:</strong></p>
+<p>提示された情報だけでは、ソニーの株価評価を正確に行うことはできません。  配当利回りの検証と業界平均PERなどの追加情報が必要不可欠です。  これらの情報が揃って初めて、より精緻な投資判断が可能となります。</p></div>
+        </div>
+        
+    </div>
+</body>
+</html>
